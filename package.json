@@ -1,0 +1,25 @@
+{
+  "name": "publishpack",
+  "version": "1.0.0",
+  "description": "PublishPack is a tool for publishing HTML, merging and minifying Javascript and CSS files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcnvdl/publishpack.git"
+  },
+  "author": "lcnvdl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lcnvdl/publishpack/issues"
+  },
+  "homepage": "https://github.com/lcnvdl/publishpack#readme",
+  "dependencies": {
+    "@babel/core": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "clean-css": "^5.2.4",
+    "terser": "^5.10.0"
+  }
+}
