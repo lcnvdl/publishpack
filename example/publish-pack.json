@@ -1,0 +1,14 @@
+{
+  "css": {
+    "in": ["./css/style-1.css", "./css/style-2.css"],
+    "out": "./dist/css/style.css"
+  },
+  "js": {
+    "in": ["./js/script-1.js", "./js/script-2.js"],
+    "out": "./dist/js/script.js"
+  },
+  "html": {
+    "in": "./index.prod.html",
+    "out": "./dist/index.html"
+  }
+}
