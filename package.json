@@ -1,10 +1,22 @@
 {
-  "name": "publishpack",
-  "version": "1.0.0",
+  "name": "html-publish-pack",
+  "version": "1.0.1",
   "description": "PublishPack is a tool for publishing HTML, merging and minifying Javascript and CSS files.",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "html-publish-pack": "./index.js",
+    "ppack": "./index.js"
+  },
+  "keywords": [
+    "uglify",
+    "publish",
+    "compress",
+    "minification"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "node index.js example/publish-pack.json"
   },
   "repository": {
     "type": "git",
